@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="/styles/partials/page-give-classes.css">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
   <script src="/scripts/addField.js" defer></script>
+  <script src="/scripts/removeField.js" defer></script>
+  <script src="/scripts/showRemove.js" defer></script>
 </head>
 <body id="page-give-classes">
   <div id="container">
@@ -78,6 +80,7 @@
         <fieldset id="schedule-items">
           <legend>Horários disponíveis
             <button type="button" id="add_time">+ Novo horário</button>
+            <button type="button" id="rm-time">- Remover</button>
           </legend>
           <div class="schedule-item">
             <div class="select-block">
@@ -111,5 +114,6 @@
       </footer>
     </main>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
